@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Projetos e Trabalhos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <i class="fas fa-code"></i> MeuPortfólio
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="stars"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Olá, eu sou Leandro</h1>
+            <p class="hero-subtitle">Desenvolvedor | Designer | Criador de Soluções</p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Ver Meus Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>Sou um desenvolvedor apaixonado por criar experiências web incríveis. Com experiência em desenvolvimento full-stack, design responsivo e otimização de performance, trago suas ideias para a vida com código limpo e criatividade.</p>
+                    <p>Acredito que a web é um espaço para inovação e que cada projeto é uma oportunidade para aprender algo novo.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h3>HTML & CSS</h3>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-js-square"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Responsivo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <div class="avatar-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="filtros">
+                <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="web">Web</button>
+                <button class="filtro-btn" data-filtro="design">Design</button>
+                <button class="filtro-btn" data-filtro="mobile">Mobile</button>
+            </div>
+            <div class="projetos-grid">
+                <div class="projeto-card" data-categoria="web">
+                    <div class="projeto-image">
+                        <img src="https://via.placeholder.com/400x300?text=Projeto+Web+1" alt="Projeto Web">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>E-commerce Moderno</h3>
+                        <p>Plataforma de e-commerce com carrinho de compras e integração de pagamento.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card" data-categoria="web">
+                    <div class="projeto-image">
+                        <img src="https://via.placeholder.com/400x300?text=Projeto+Web+2" alt="Projeto Web">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Dashboard Administrativo</h3>
+                        <p>Interface para gerenciamento de dados com gráficos e estatísticas em tempo real.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card" data-categoria="design">
+                    <div class="projeto-image">
+                        <img src="https://via.placeholder.com/400x300?text=Design+1" alt="Design">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Branding Visual</h3>
+                        <p>Sistema de design completo com paleta de cores, tipografia e componentes.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">Design</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card" data-categoria="mobile">
+                    <div class="projeto-image">
+                        <img src="https://via.placeholder.com/400x300?text=App+Mobile" alt="App Mobile">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>App de Tarefas</h3>
+                        <p>Aplicativo mobile para gerenciamento de tarefas com sincronização em nuvem.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card" data-categoria="web">
+                    <div class="projeto-image">
+                        <img src="https://via.placeholder.com/400x300?text=Projeto+Web+3" alt="Projeto Web">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Blog Pessoal</h3>
+                        <p>Blog responsivo com sistema de comentários e busca de artigos.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card" data-categoria="design">
+                    <div class="projeto-image">
+                        <img src="https://via.placeholder.com/400x300?text=Design+2" alt="Design">
+                        <div class="projeto-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Landing Page</h3>
+                        <p>Página de destino de alta conversão com formulários otimizados.</p>
+                        <div class="projeto-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Conversão</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="servicos">
+        <div class="container">
+            <h2 class="section-title">Meus Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de sites modernos, responsivos e otimizados para SEO com as melhores práticas.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicativos Mobile</h3>
+                    <p>Desenvolvimento de aplicativos iOS e Android com experiência do usuário excepcional.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Design UI/UX</h3>
+                    <p>Design intuitivo e atraente que transforma ideias em interfaces visuais incríveis.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Otimização</h3>
+                    <p>Melhoraria de performance, velocidade e SEO para garantir o melhor resultado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="contato-subtitle">Vamos conversar sobre seu próximo projeto!</p>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>leandro@example.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>+55 (11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>São Paulo, Brasil</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu Email" required>
+                    <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+            <div class="redes-sociais">
+                <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Leandro. Todos os direitos reservados.</p>
+            <p>Desenvolvido com <i class="fas fa-heart"></i> e muita criatividade.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
