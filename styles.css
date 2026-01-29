@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #d946ef;
+    --primary-color: #1141df;
     --secondary-color: #a855f7;
     --accent-color: #ec4899;
     --dark-bg: #1a1625;
@@ -14,7 +14,7 @@
     --light-text: #c4b5fd;
     --bg-light: #2d2640;
     --border-color: rgba(168, 139, 250, 0.2);
-    --gradient-primary: linear-gradient(135deg, #d946ef, #ec4899);
+    --gradient-primary: linear-gradient(135deg, #1141df, #ec4899);
     --gradient-bg: linear-gradient(135deg, #1a1625 0%, #2d1b4e 50%, #4c1d95 100%);
     --transition: all 0.3s ease;
 }
